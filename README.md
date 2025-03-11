@@ -1,5 +1,7 @@
 CHAKSHU – IoT-Based Evidence Extractor
+
 Developed an investigative tool for law enforcement (CID - Bangalore police) to aid cybercrime detection. 
+
 It comprises of:
 
 IoT Data Extraction – Retrieves critical data (heartbeat, GPS, call logs) from smartwatches and Bluetooth devices using (Man in the middle) MITM attacks.
