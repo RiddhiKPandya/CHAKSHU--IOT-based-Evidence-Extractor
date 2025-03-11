@@ -1,0 +1,78 @@
+.slider-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 20px auto;
+  }
+  
+  .slider-container {
+    display: flex;
+    width: 75vw;
+    height: 75vh;
+    background: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: height 0.3s ease-in-out;
+    overflow-y: scroll;
+    left: 2vw;
+    top: 5vh;
+  }
+  
+  .slide {
+    width: 100%;
+    padding: 20px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .slide.active {
+    display: flex;
+  }
+  
+  .navigation-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .prev-btn,
+  .next-btn {
+    background: #222;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 10px;
+    position: relative;
+    top: 5vh;
+  }
+  
+  .excel-table-container {
+    margin-top: 20px;
+    text-align: center;
+    overflow-x: auto;
+  }
+  
+  .excel-table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+  }
+  
+  .excel-table th, .excel-table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .excel-table th {
+    background-color: #f4f4f4;
+  }
+  
+  
